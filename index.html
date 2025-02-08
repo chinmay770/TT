@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love Story ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            color: #ffeb3b;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-container:hover {
+            transform: scale(1.05);
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+        .message {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .image-container:hover .message {
+            opacity: 1;
+        }
+        p {
+            font-size: 1.5em;
+            margin-top: 20px;
+            font-style: italic;
+            animation: fadeIn 3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Love Story ❤️</h1>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="C:/Users/Chinmay/Desktop/TT/Tanvie/3.jpeg" alt="Love Memory 1">
+            <div class="message">From the moment I met you, my life changed forever...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\2.jpeg" alt="Love Memory 2">
+            <div class="message">Every heartbeat of mine whispers your name...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\1.jpeg" alt="Love Memory 3">
+            <div class="message">You are my dream, my reality, my forever love...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\4.jpeg" alt="Love Memory 4">
+            <div class="message">No words can describe how much you mean to me...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\5.jpeg" alt="Love Memory 5">
+            <div class="message">With you, every second is a moment to cherish...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\6.jpeg" alt="Love Memory 6">
+            <div class="message">Love isn't just a feeling, it's you in my life...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\7.jpeg" alt="Love Memory 7">
+            <div class="message">My love for you grows stronger every day...</div>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\Chinmay\Desktop\TT\Tanvie\8.jpeg" alt="Love Memory 8">
+            <div class="message">No matter where life takes us, I’ll always hold your hand...</div>
+        </div>
+    </div>
+    <p>Every moment with you is a memory I cherish forever. This is just the beginning of our journey... ❤️</p>
+</body>
+</html>
